@@ -9,9 +9,29 @@
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
+    <nav id="nav-mob">
+      <div>
+        <button type="button" class="menu-bare" id="close-btn">
+          <i class="fas fa-times fa-2x"></i>
+        </button>
+      </div>
+      <ul>
+        <li>
+          <a class="nav-link" href="#projects" id="btn-nav1">Portoflio</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#about-me" id="btn-nav2">About</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#contact" id="btn-nav3"
+            >Contact <i class="far fa-envelope"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
+      <button type="button" class="menu-bars" id="menu-bar">
         <i class="fas fa-bars"></i>
       </button>
       <nav id="desktop-nav">
@@ -26,7 +46,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="hide-menu-bar">
       <div id="intro">
         <div class="intro-icon">
           <img
@@ -442,5 +462,6 @@
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
