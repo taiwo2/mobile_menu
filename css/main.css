@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -425,7 +426,7 @@ textarea {
   flex-direction: row-reverse;
 }
 
- #nav-mob > ul {
+#nav-mob > ul {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
