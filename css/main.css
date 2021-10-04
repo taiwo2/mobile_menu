@@ -416,6 +416,44 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+#nav-mob {
+  background-color: #ccc2bd;
+  height: 100vh;
+  display: none;
+  position: relative;
+  padding: 50px 20px;
+  flex-direction: row-reverse;
+}
+
+ #nav-mob > ul {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#nav-mob > ul > li {
+  display: flex;
+  width: 100%;
+  padding: 30px 0 10px 0;
+  border-bottom: 1px solid #6f6c6b;
+}
+
+#nav-mob > ul > li .nav-link {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.menu-bare {
+  border: 0;
+  background: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #6f6c6b;
+}
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
