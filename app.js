@@ -14,4 +14,6 @@ window.addEventListener('load', () => {
   document.getElementById('menu-bar').addEventListener('click', handleMenuBar);
   document.getElementById('close-btn').addEventListener('click', hideMenuBar);
   document.getElementById('btn-nav2').addEventListener('click', hideMenuBar);
+  document.getElementById('btn-nav1').addEventListener('click', hideMenuBar);
+  document.getElementById('btn-nav3').addEventListener('click', hideMenuBar);
 });
